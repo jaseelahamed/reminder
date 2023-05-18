@@ -1,0 +1,53 @@
+<div class="hero">
+<section class="intro">
+    <!-- <div class="bg-image h-100" style="background-image: url('../../assets/img11.jpg.jpg');"> -->
+      <!-- <div class="mask d-flex align-items-center h-100" style="background-color: rgba(25, 185, 234,.25);"> -->
+        <div id="box" class="container">
+          <div class="row justify-content-center">
+            <div class="col-12">
+              <div class="card">
+                <div class="card-body">
+                  <!-- <div class="table-responsive"> -->
+                    <table class="table table-hover mb-0">
+                      <thead>
+                        <tr>
+                      
+                          <th scope="col">REMINDER</th>
+                          <th scope="col">Date</th>
+                          <th scope="col">Time</th>
+                          <!-- <th scope="col">Product Revenue</th> -->
+                          <!-- <th scope="col">Avg. Price</th> -->
+                        </tr>
+                      </thead>
+                      <tbody>
+                        
+                          <!-- <tr>
+                              <th>Reminder</th>
+                              <th>Date</th>
+                               <th>Balance</th> -->
+                              <!-- <th>Time</th> -->
+                          <!-- </tr>  -->
+                      
+                    
+                          <tr *ngFor="let i of reminder">
+                              
+                              <td>{{i.message}}</td>
+                              <td>{{i.date|date:'short'}}</td>
+                              <!-- <td>{{i.Balance}}</td> -->
+                              <td>{{i.time}}</td>
+                          </tr>
+                      </tbody>
+                      <a routerLink="/dashb" class="btn btn-dark">BACK</a>
+                    
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        <!-- </div> -->
+      <!-- </div> -->
+    <!-- </div> -->
+  </section>
+</div>
+<!-- </div> -->

@@ -1,0 +1,47 @@
+.links a{
+    margin-left: 4px;
+    }
+    #btn{
+        color: black;
+        background-color:  rgb(52, 153, 171);
+    }
+    .im1{
+        width: 100px;
+        height: 50px;
+        justify-content: center;
+        margin-left: 720px;
+        margin-top: 30px;
+    }
+    .im1{
+        width: 150px;
+        height: 150px;
+        justify-content: center;
+        margin-left: 100px;
+        margin-top: 30px;
+    }
+    #btn:hover{
+
+        background: white;
+        transform: translateY(-3px)
+        }
+        .card{
+            height: 400px;
+            margin-top: 1%;
+            margin-bottom: auto;
+            width: 400px;
+            background-color: rgba(0,0,0,0.5) !important;
+            
+            }
+            #img2{
+    
+                position: static;
+                width: 25%;
+                height: 100%;
+                background-size: 100% 100%;
+                background-image: url(../../assets/img66.jpg.png);
+                margin-left: 1000px;
+                /* margin-bottom: 500px; */
+            }
+            #box{
+                margin-left: -450px;
+            }

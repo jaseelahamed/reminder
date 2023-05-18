@@ -1,0 +1,25 @@
+/* #bel{
+    padding-left: 14px;
+}
+#nav{
+     background: linear-gradient(to left,rgb(5, 6, 6), #1a4369);
+    width: 100%;
+}
+#bcl{
+    color: rgb(245, 245, 240);
+    
+}
+#bcl:hover{
+    background: rgb(52, 153, 171);
+    transform: translateY(-10px)
+   }
+   #lg{
+    color: rgb(237, 237, 228);
+   } */
+   #nav{
+   box-shadow: rgba(245, 245, 247, 0.089) 0px 54px 55px, rgb(237, 241, 243) 0px -12px 30px, rgba(245, 242, 245, 0.747) 0px 4px 6px, rgba(47, 189, 130, 0.17) 0px 12px 13px, rgba(93, 35, 202, 0.582) 0px -3px 5px;
+   }
+   #nav{
+    background: linear-gradient(to left,rgb(5, 6, 6), #1a4369);
+   width: 100%;
+}

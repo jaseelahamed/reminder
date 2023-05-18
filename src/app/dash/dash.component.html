@@ -1,0 +1,65 @@
+
+<!-- nav end -->
+
+<section class="vh-100">
+  
+    <div class="hero">
+        <a routerLink="/log"><i class="bi bi-arrow-left-circle"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-arrow-left-circle" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-4.5-.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5z"/>
+          </svg></i></a>
+        <button id="button" class="btn btn-danger" (click)="logout()">LOG OUT</button>
+        <button  id="button1"  class="btn btn-danger" (click)="deleteacc()">DELETE Account</button>
+    <div id="tans" class="container py-5 h-100">
+
+        <div class="row d-flex justify-content-center align-items-center h-100">
+            <div class="col">
+                <div class="card" id="list1" style="border-radius: .75rem; background-color: #eff1f2;">
+                    <div class="card-body py-4 px-4 px-md-5">
+                        <img  id="img"src="../../assets/img11.jpg.png" alt="">
+                        <p id="h1" class="h1 text-center mt-3 mb-4 pb-3 text-primary">
+                            <!-- <i class="fas fa-check-square me-1"></i> -->
+                            <!-- <img  id="img"src="../../assets/img11.jpg.png" alt=""> -->
+
+                            <u id="h2"> THE VENGEANCE DAY'S</u>
+                            <!-- <img  id="img"src="../../assets/img11.jpg.png" alt=""> -->
+                        </p>
+
+                        <div class="pb-2">
+                            <div class="card">
+                                <form [formGroup]="rmform" (ngSubmit)="clicked()">
+                                    <div class="card-body">
+                                        <input type="date" formControlName="date">
+                                        <input id="time" type="time" formControlName="time">
+
+
+                                        <div class="d-flex flex-row align-items-center">
+                                            <input type="text" class="form-control form-control-lg"
+                                                id="exampleFormControlInput1" placeholder="Add new..."
+                                                formControlName="message">
+                                            <a href="#!" data-mdb-toggle="tooltip" title="Set due date"><i
+                                                    class="fas fa-calendar-alt fa-lg me-3"></i></a>
+                                            <div>
+                                                <button type="submit" class="btn btn-dark">Add</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <a routerLink="/v"  id="vu"class="btn btn-success">view  history</a>
+                        <hr class="my-4">
+
+
+
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+       
+</section>
